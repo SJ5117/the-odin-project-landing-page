@@ -1,18 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
     margin: 0;
     padding: 0;
+    font-family: Roboto, sans-serif;
 }
 
 .hero {
     background-color: #1F2937;
-    padding-bottom: 50px;
+    /*padding: 0 125px 50px 125px;*/
+    border: 2px solid red;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2px 125px;
+    padding: 2px 250px;
     border: 2px solid red;
 }
 
@@ -37,35 +41,122 @@ a {
     color: #F9FAF8;
 }
 
+.section1 {
+    display: flex;
+    padding: 50px 250px 50px 250px;
+    justify-content: space-between;
+}
+
+.section1-left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.section1-right {
+    display: flex;
+}
+
 .hero-text {
+    max-width: 350px;
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .hero-subtext {
+    max-width: 500px;
     font-size: 18px;
     color: #E5E7EB;
 }
 
 .signup1 {
+    width: 100px;
+    height: 25px;
     border-radius: 20px;
     background-color: #3882F6;
     font-weight: bold;
+    color: white;
 }
 
 .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 600px;
     height: 300px;
     background-color: #ababab;
 }
 
 .section2 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 300px;
     background-color: #FFFFFF;
+}
+
+.s2-text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.s2-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_s2box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2box {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+}
+
+.s2p {
+    text-align: center;
+    max-width: 150px;
 }
 
 .section3 {
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.s3-container {
+    width: 900px;
+    margin: 75px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-subtext {
+    display: flex;
+    align-items: flex-end;
+    margin: 0;
+    font-weight: bold;
 }
 
 .section4 {
