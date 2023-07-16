@@ -8,8 +8,6 @@ body {
 
 .hero {
     background-color: #1F2937;
-    /*padding: 0 125px 50px 125px;*/
-    border: 2px solid red;
 }
 
 .header {
@@ -17,7 +15,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 2px 250px;
-    border: 2px solid red;
 }
 
 .header-logo {
@@ -72,11 +69,15 @@ a {
 }
 
 .signup1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100px;
     height: 25px;
     border-radius: 20px;
     background-color: #3882F6;
-    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
     color: white;
 }
 
@@ -147,22 +148,76 @@ a {
     justify-content: flex-start;
     margin: 0;
     font-size: 36px;
-    font-weight: 300;
+    font-weight: 100;
     font-style: italic;
     color: #1f2937;
 }
 
 .quote-subtext {
     display: flex;
-    align-items: flex-end;
+    align-self: flex-end;
     margin: 0;
     font-weight: bold;
 }
 
 .section4 {
     background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+    padding: 12px 150px;
+    width: 700px;
+    height: 125px;
+    border-radius: 7px;
+    background-color: #3882F6;
+}
+
+.container_cta-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cta-text {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.cta-subtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+}
+
+.signup2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid white;
+    text-align: center;
+    color: white;
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
     background-color: #1F2937;
+    color: white;
+    margin: 0;
 }
